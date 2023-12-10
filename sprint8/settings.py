@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'empleados',
     'movimientos',
     'prestamos',
-    'sucursales',
     'tarjetas',
     'corsheaders',
     "authentication.apps.AuthenticationConfig",
@@ -58,7 +57,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     "dj_rest_auth",
     "dj_rest_auth.registration",
-    "users"
+    "users",
+    "sucursales"
 ]
 
 MIDDLEWARE = [
